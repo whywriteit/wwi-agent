@@ -2,6 +2,6 @@ before:
   hooks:
     - go mod tidy
 archives:
-  format: binary
+  - format: binary
 checksum:
   name_template: 'checksums.txt'
